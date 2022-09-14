@@ -13,8 +13,23 @@ body {
 	overflow: hidden;
 
 	display: flex;
-	flex-direction: column;
+
 	justify-content: center;
 	align-items: center;
 }
 /* CSS RESET END */
+.bg {
+	background: url("https://images.unsplash.com/photo-1593465234573-3a2b343ab4eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fGJ3bSUyMG0yfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=2100&q=60")
+		no-repeat center center/cover;
+	position: absolute;
+	top: -30px;
+	left: -30px;
+	width: calc(100vw + 60px);
+	height: calc(100vh + 60px);
+	z-index: -1;
+	filter: blur(0px);
+}
+.loading-text {
+	font-size: 50px;
+	color: #fff;
+}
